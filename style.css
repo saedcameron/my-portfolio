@@ -1,0 +1,35 @@
+.card {
+    display: inline-flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 15px;
+    margin: auto;
+    margin-inline: 25px;
+    margin-bottom: 708px;
+    margin-top: 25px;
+    height: max-content;
+    width: 25%;
+    border-radius: 25px;
+    background-color: var(--lightest-blue);
+    color: darkgray;
+    text-shadow: 3px 3px 5px black;
+    flex-wrap: wrap;
+    font-size: 117%;
+    float: left;
+  }
+
+  .hero.is-fullheight {
+    min-height: 157vh;
+  }
+
+  a {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.WebContainer{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+}
